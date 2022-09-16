@@ -1,0 +1,25 @@
+.homeAbout {
+    width: 100vw;
+    height: 70vh;
+}
+
+.homeAbout-head {
+    text-align: center;
+    padding: 10rem;
+}
+
+.container.homeAbout-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.homeAbout-left {
+    margin-left: 30rem;
+}
+
+.homeAbout-right img {
+    width: 40rem;
+}

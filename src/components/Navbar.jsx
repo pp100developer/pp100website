@@ -27,7 +27,7 @@ const Navbar = () => {
                     links.map(({name, path}, index) => {
                         return (
                             <li>
-                                <NavLink to={path} onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
+                                <NavLink key={index} to={path} onClick={() => setIsNavShowing(prev => !prev)}>{name}</NavLink>
                             </li>
                         )
                     })

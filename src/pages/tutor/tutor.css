@@ -1,0 +1,21 @@
+.container.tutor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.card.tutor {
+    padding: 1rem;
+}
+
+.tutorCard {
+    border: 2px solid;
+    text-align: center;
+    border-radius: 3rem 3rem;
+    transition: all 500ms ease;
+}
+
+.tutor img {
+    border-radius: 1rem;
+}

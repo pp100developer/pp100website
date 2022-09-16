@@ -46,6 +46,15 @@ nav {
     display: none;
 }
 
+@keyframes animateNavItems {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .navbarToggleBtn {
         display: inline-block;
@@ -59,14 +68,20 @@ nav {
     
     .links {
         position: absolute;
+        display: block;
         flex-direction: column;
         top: 100%;
-        right: 10%;
+        width: 100%;
+        left: 0;
         background-color: #bcbce7;
     }
 
-    .links li {
+    .links ul li {
         width: 100%;
+        text-align: center;
+        cursor: pointer;
+        transition: all 200ms ease;
+        animation: animateNavItems 1000ms ease;
     }
 
     .links a {
@@ -85,3 +100,4 @@ nav {
         display: none;
     }
 }
+

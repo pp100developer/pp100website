@@ -7,6 +7,7 @@ import Curri from './pages/curri/Curri'
 import Tutor from './pages/tutor/Tutor'
 import Contact from './pages/contact/Contact'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='tutor' element={<Tutor/>}/>
         <Route path='contact' element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }

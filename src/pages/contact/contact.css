@@ -1,0 +1,14 @@
+
+.contact-wrapper {
+    margin-top: 5rem;
+}
+.contact-wrapper a {
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
+.contact-container {
+    display: grid;
+    place-items: center;
+}

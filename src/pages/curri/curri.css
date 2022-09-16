@@ -1,0 +1,14 @@
+.container.curri-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;;
+}
+
+.curri h3 {
+    margin-bottom: 0.8rem;
+}
+
+.curri small {
+    margin-bottom: 2rem;
+}
+

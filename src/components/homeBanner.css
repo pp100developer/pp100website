@@ -1,6 +1,44 @@
 .mainHeader {
     width: 100vw;
     height: 50vh;
+    display: grid;
+    place-items: center;
     background-color: #f5f5fa;
     margin-top: 2rem;
+}
+
+.mainHeader-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.container.mainHeader-container {
+    width: 80%;
+}
+.mainHeader-left p {
+    margin: 1rem 0 3.5rem;
+}
+
+.bannerImg {
+    width: 40rem;
+}
+
+.contactBtn {
+    color: white;
+    border-radius: 2rem;
+    background-color: blueviolet;
+    padding: 1rem 2rem;
+}
+
+.contactBtn:hover {
+    background-color: darkgoldenrod;
+}
+
+.mainHeader-right {
+    display: grid;
+    place-items: center;
+    position: relative;
 }
